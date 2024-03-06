@@ -1,0 +1,62 @@
+
+body{
+    background-color: #BBE2EC;
+}
+.colorbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 630px;
+    height: 670px;
+    background-color: white;
+}
+form h1{
+    text-align: center;
+}
+.form>input{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+form input{
+margin-bottom: 15px;
+}
+form input{
+    margin-left: 30px;
+}
+form label{
+    margin-left: 30px;
+}
+.study {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.study-checkbox{
+    margin: 0;
+}
+.study p{
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+.data input{
+    width: 60px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 110px;
+    height: 35px;
+    background-color: rgb(137, 137, 200);
+    border: 1px solid black;
+}
+

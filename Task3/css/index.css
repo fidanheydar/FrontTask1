@@ -1,0 +1,16 @@
+#first li:nth-child(2) {
+    color: red;
+  }
+  #second li:first-child {
+    color: red;
+  }
+  #third li:nth-child(3) {
+    color: red;
+  }
+  .check{
+    display: flex;
+    flex-direction: column;
+  }
+  .check p{
+    margin: 0;
+  }
